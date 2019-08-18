@@ -1,0 +1,33 @@
+
+<html>
+<head>
+
+<title>Ejercicio 8 </title>
+
+<script type="text/javascript">
+function info(cadena) {
+
+  var resultado = "La cadena \""+cadena+"\" ";
+
+  // Comprobar mayúsculas y minúsculas
+  if(cadena == cadena.toUpperCase()) {
+    resultado += " está formada sólo por mayúsculas";
+  }
+  else if(cadena == cadena.toLowerCase()) {
+    resultado += " está formada sólo por minúsculas";
+  }
+  else {
+    resultado += " está formada por mayúsculas y minúsculas";
+  }
+
+  return resultado;
+}
+
+alert(info("SOLO CONTIENE MAYUSCULAS"));
+alert(info("Esta formado mayusculas y minusculas"));
+</script>
+</head>
+
+<body>
+</body>
+</html>
